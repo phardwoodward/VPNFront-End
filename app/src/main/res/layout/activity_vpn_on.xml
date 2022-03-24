@@ -6,4 +6,39 @@
     android:layout_height="match_parent"
     tools:context=".vpn_on">
 
+    <ImageButton
+        android:id="@+id/vpn_on"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/power"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.216" />
+
+    <TextView
+        android:id="@+id/protected_vpn_on"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/abel"
+        android:text="You are protected"
+        android:textColor="#050303"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vpn_on"
+        app:layout_constraintVertical_bias="0.052" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/pic1"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="481dp" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
